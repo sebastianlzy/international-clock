@@ -1,8 +1,15 @@
 # International Clock
 
-International Clock is a native macOS menu bar app for Singapore Time and Pacific Time. It shows the day, date, and time, for example `🇸🇬 Mon Nov 9 8:42 AM`.
+International Clock is a native macOS menu bar app that shows the day, date, and time in your selected time zone.
 
-Click the menu bar clock to choose **Singapore Time** or **Pacific Time**. The app remembers your choice. Pacific Time follows daylight saving automatically.
+![International Clock showing Singapore Time in the macOS menu bar](menu-bar.png)
+
+The app currently supports two time zones. Click the menu bar clock to switch between them.
+
+- 🇸🇬 **Singapore Time (SGT)**
+- 🇺🇸 **Pacific Time (PT)**, which follows daylight saving automatically
+
+The app remembers your choice.
 
 ## Build and run
 
@@ -21,3 +28,7 @@ Click the menu bar clock to choose **Singapore Time** or **Pacific Time**. The a
    ```
 
 The build script compiles the Swift source and signs the app locally. To close it, click the clock and choose **Quit International Clock**.
+
+## Contributing
+
+Pull requests that add support for more time zones are welcome.

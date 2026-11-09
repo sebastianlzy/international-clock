@@ -15,7 +15,7 @@ final class SingaporeClock: NSObject, NSApplicationDelegate {
         var prefix: String {
             switch self {
             case .singapore: return "🇸🇬"
-            case .pacific: return "PT"
+            case .pacific: return "🇺🇸"
             }
         }
     }
